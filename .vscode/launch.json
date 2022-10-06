@@ -7,15 +7,15 @@
     {
       "type": "lldb",
       "request": "launch",
-      "name": "Debug executable 'screensaver'",
+      "name": "Debug executable 'simple-genetic-algorithm'",
       "cargo": {
         "args": [
           "build",
-          "--bin=screensaver",
-          "--package=screensaver"
+          "--bin=simple-genetic-algorithm",
+          "--package=simple-genetic-algorithm"
         ],
         "filter": {
-          "name": "screensaver",
+          "name": "simple-genetic-algorithm",
           "kind": "bin"
         }
       },
@@ -25,16 +25,16 @@
     {
       "type": "lldb",
       "request": "launch",
-      "name": "Debug unit tests in executable 'screensaver'",
+      "name": "Debug unit tests in executable 'simple-genetic-algorithm'",
       "cargo": {
         "args": [
           "test",
           "--no-run",
-          "--bin=screensaver",
-          "--package=screensaver"
+          "--bin=simple-genetic-algorithm",
+          "--package=simple-genetic-algorithm"
         ],
         "filter": {
-          "name": "screensaver",
+          "name": "simple-genetic-algorithm",
           "kind": "bin"
         }
       },
