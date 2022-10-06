@@ -1,8 +1,8 @@
 # Simple Genetic Simulation
 
-I wanted to experiment with Rust, and so I decided to recreate a screensave I made years ago in Java.
+I wanted to experiment with Rust, so I decided to recreate a screensave I made years ago in Java.
 
-It is poorly optimized and likes to not run on some computers.
+It is poorly optimized and likes to not run on some computers. It is also no longer a screensaver.
 
 Halfway through I decided to shove in a genetic algorithm because I've been meaning to play with those for a while. I did this poorly.
 
